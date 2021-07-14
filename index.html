@@ -15,17 +15,19 @@
 
     <script src="https://kit.fontawesome.com/59bbe88259.js" crossorigin="anonymous"></script>
 
+    <link rel="shortcut icon" href="images/banner.png" type="image/png">
     <title>Responsive Football</title>
 </head>
 <body>
     <header>
         <nav class="flex-style">
             <ul class="flex-style">
-               <li><a class="top-element" href="#">Home<hr></a></li>
-               <li><a class="top-element" href="#">Clubs<hr></a></li>
-               <li><a class="top-element" href="#">World Cup 2023<hr></a></li>
-               <li><a class="top-element" href="#">Upcoming Matches<hr></a></li>
-               <li><a class="top-element" href="#">Contact<hr></a></li> 
+                <li class="initial-element"><a class="top-element" href="#"><i class="fas fa-bars"></i></a></li>
+               <li class="removable"><a class="top-element" href="#">Home<hr></a></li>
+               <li class="removable"><a class="top-element" href="#">Clubs<hr></a></li>
+               <li class="removable"><a class="top-element" href="#">World Cup 2023<hr></a></li>
+               <li class="removable"><a class="top-element" href="#">Upcoming Matches<hr></a></li>
+               <li class="removable"><a class="top-element" href="#">Contact<hr></a></li> 
             </ul>
             <a class="login-element" href="#"><i class="fas fa-sign-in-alt"></i><span class="text-left-gap">login</span></a>
         </nav>
@@ -109,6 +111,14 @@
 
         </div>
 
+        <div class="message-content flex-style">
+            <div class="message-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/BhQ2ODFmeT4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="message-text"><h2>Message from <span>Prsident Omauk Tmokyo</span></h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam porro necessitatibus, consequatur facilis temporibus esse. Aliquam ipsam in impedit, laudantium molestias corporis provident magnam vel dolor asperiores magni qui harum ipsa saepe quod reiciendis quos neque odio, eos excepturi. Cum aliquam necessitatibus minus.</p></div>
+        </div>
+
         <div class="headline-content flex-style">
             <div class="header-headline">
                 <h2>All Highlights Copa America 2021</h2>
@@ -120,6 +130,13 @@
             </div>
         </div>
 
+
+        <div class="subscription flex-style flex-hr-square">
+            <div class="subscription-container flex-style">
+                <h3>Send Us Your Email to Subcribe</h3><div class="submission"><input type="email" placeholder="Submit Your Email Here"><button type="submit">Submit</button></div>
+            </div>
+        </div>
+
     </main>
 
     <footer class="flex-style flex-vr-square">
@@ -128,10 +145,10 @@
                 <img src="images/Logo.png" alt="">
             </div>
             <div class="footer-social flex-style">
-                <i class="youtube fab fa-youtube"></i>
-                <i class="facebook fab fa-facebook"></i>
-                <i class="twitter fab fa-twitter"></i>
-                <i class="twitch fab fa-twitch"></i>
+                <a href="#"><i class="youtube fab fa-youtube"></i></a>
+                <a href="#"><i class="facebook fab fa-facebook"></i></a>
+                <a href="#"><i class="twitter fab fa-twitter"></i></a>
+                <a href="#"><i class="twitch fab fa-twitch"></i></a>
             </div>
             <div class="footer-copyright">
                 <p>Copyright &copy; 2022 Football</p>
