@@ -34,10 +34,22 @@ li {
 }
 
 a {
+    display: inline-block;
     color: var(--default-color);
     text-decoration: none;
     background-color: #E02C6D;
     padding: 9px 21px;
+    transition: transform 0.8s;
+}
+
+.login-element:hover {
+    transform: rotate(360deg);
+}
+
+.link-element:hover {
+    transform: scale(1.25, 1.25);
+    background-color: rgb(14, 5, 34);
+    color: rgb(236, 254, 255);
 }
 
 .flex-style {
@@ -79,7 +91,30 @@ nav {
 }
 
 ul li {
-    padding-right: 31.55px;
+    margin-right: 31.55px;
+}
+
+li .top-element {
+    color: unset;
+    background-color: unset;
+    padding: 0;
+}
+
+li .top-element:hover {
+    color: rgb(168, 181, 255);
+}
+
+li hr {
+    border: none;
+    width: 0;
+    height: 0;
+    transition: width 0.3s;
+}
+
+.top-element:hover hr {
+    border: 1px solid rgb(168, 181, 255);
+    background-color: rgb(168, 181, 255);
+    width: 100%;
 }
 
 .text-left-gap {
@@ -114,6 +149,11 @@ ul li {
 
 .header-image img {
     width: 487.28px;
+    transition: all 1s;
+}
+
+.header-image img:hover {
+    transform: translate(-5%, 2%) rotate(20deg);
 }
 
 .players-grid {
