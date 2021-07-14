@@ -13,6 +13,22 @@
     --content-title-color: #0A0826;
 }
 
+.youtube {
+    color: #FF0000;
+}
+
+.facebook {
+    color: #1778F2;
+}
+
+.twitter {
+    color: #1DA1F2;
+}
+
+.twitch {
+    color: #6441A4;
+}
+
 li {
     list-style: none;
 }
@@ -93,11 +109,11 @@ ul li {
 
 .header-image {
     margin-bottom: 159.05px;
+    margin-right: 110px;
 }
 
 .header-image img {
     width: 487.28px;
-    margin-right: 110px;
 }
 
 .players-grid {
@@ -132,4 +148,69 @@ ul li {
     font-weight: normal;
     font-size: 14.0222px;
     line-height: 23px;
+}
+
+.headline-content {
+    margin: 0 136.72px 138.47px 159.5px;
+    justify-content: space-between;
+}
+
+.header-headline {
+    margin: 51.71px 0 7.01px 0;
+    width: 411.03px;
+}
+
+.header-headline h2 {
+    color: var(--content-title-color);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 43px;
+    line-height: 53px;
+}
+
+.header-headline p {
+    color: var(--content-color);
+    margin-bottom: 21.03px;
+    width: 354.06px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14.0222px;
+    line-height: 25px;
+}
+
+.headline-image img {
+    width: 496.91px;
+}
+
+footer {
+    flex-direction: column;
+}
+
+.footer-container {
+    flex-direction: column;
+}
+
+.intro-footer img {
+    width: 424.06px;
+    margin-bottom: 17.53px;
+}
+
+.footer-social {
+    margin-bottom: 20px;
+}
+
+.footer-social i {
+    font-size: 25px;
+    padding-left: 12.27px;
+    padding-right: 12.27px;
+}
+
+.footer-copyright {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15.775px;
+    line-height: 21px;
+    
+    color: #000000;
+    margin-bottom: 55.21px;
 }
