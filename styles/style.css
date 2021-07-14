@@ -216,6 +216,10 @@ li hr {
     display: block;
 }
 
+.message-text p {
+    margin-top: 15px;
+}
+
 .headline-content {
     margin: 0 136.72px 100.47px 159.5px;
     justify-content: space-between;
@@ -261,6 +265,10 @@ li hr {
     border: 0.5px solid rgba(11, 11, 59, 0.171);
     padding: 15px 22px 15px 8px;
     box-shadow: 0px 0px 35.0556px rgba(0, 0, 0, 0.15); 
+}
+
+.subscription-container h3 {
+    padding-right: 35px;
 }
 
 .submission {
